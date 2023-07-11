@@ -1,0 +1,46 @@
+@import "./colors.css";
+
+.footer {
+  background-color: var(--first);
+  height: 200px;
+  width: 100%;
+  color: var(--dark);
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  padding: 2rem;
+}
+
+.footer .div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer .div1> h1 {
+      font: 700 2rem var(--text1);
+      text-transform: uppercase;
+      color: var(--dark);
+    }
+    .footer> .div1> p {
+      font: 500 1.2rem var(--text1);
+    }
+
+.footer .div2 > h5 {
+      font: 300 2rem var(--text1);
+      margin: 1rem 0;
+      text-align: center;
+    }
+
+.footer .div2> div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+.footer .div2> div a {
+        color: var(--dark);
+        font: 900 1rem var(--text2);
+}
+
+.footer .div2> div a :hover {
+          color: var(--third);
+        }
+      

@@ -1,0 +1,7 @@
+@import 'colors.css';
+
+.menu{
+    background-color: var(--black);
+    display: flex;
+
+}

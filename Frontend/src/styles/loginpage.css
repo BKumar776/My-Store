@@ -1,0 +1,20 @@
+@import 'colors.css';
+.loginpage{
+    background-color: var(--black);
+   /* margin-top: 32px; */
+    height: 70vh;
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.loginpage .paper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 700px;
+}
+
